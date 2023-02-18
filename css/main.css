@@ -1,0 +1,34 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #6e6e6e;
+  height: 100vh;
+}
+.image {
+  width: 90%;
+}
+
+#joke-container {
+  padding: 10px;
+  background-color: #ffffff;
+  min-height: 200px;
+  max-width: 600px;
+  border-radius: 12px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+#clickMe {
+  width: 200px;
+  height: 50px;
+  background-color: #baff39;
+  border-radius: 10px;
+}
